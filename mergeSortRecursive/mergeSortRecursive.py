@@ -28,6 +28,6 @@ def mergeSortRecursive(arr):
             j += 1
             k += 1
 
-        print(arr)
+        return arr
 
-mergeSortRecursive([1,5,8,90,54])
+print(mergeSortRecursive([5,1,8,90,54]))
